@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+    background-color: burlywood;
+}
+/* NAVBAR */
+
+.navbar-expand:hover{
+    background-color: blue;
+    color: blue;
+}
+.navbar-brand h1{
+    font-size: 350%;
+}
+.navbar-brand h1:hover{
+color: black;
+}
+.nav-link{
+    color: brown;
+}
+.nav-link:hover{
+    color: black;
+}
+.nav-item::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:rgb(48, 48, 163);
+    display: block;
+    margin: auto;
+    transition: all ease-in-out 0.5s;
+}
+.nav-item:hover::after{
+    width: 50%;
+}
+
+/* CAROUSEL */
+.carousel-inner img{
+    height: 32rem;
+    filter: brightness(50%);
+}
+
+
+/* CARDS */
+
+.card{
+    border: none;
+    background-color: aqua;
+}
+.card:hover{
+    background-color: blueviolet;
+}
+.card img{
+    box-shadow: 9px 2px 9px 3px;
+}
+.card img{
+ color: gray;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+.layer:hover{
+    background: green;
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 59%;
+    opacity: 1;
+}
+.layer1{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+.layer1:hover{
+    background:red;
+}
+.layer1 h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer1:hover h3{
+    bottom: 59%;
+    opacity: 0.5;
+}
+.layer2{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+.layer2:hover{
+    background: yellow;
+}
+.layer2 h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer2:hover h3{
+    bottom: 59%;
+    opacity: 0.5;
+}
+.layer3{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+.layer3:hover{
+    background: blue;
+}
+.layer3 h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer3:hover h3{
+    bottom: 59%;
+    opacity: 0.5;
+}
+.layer4{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+.layer4:hover{
+    background: white;
+}
+.layer4 h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer4:hover h3{
+    bottom: 59%;
+    opacity: 0.5;
+}
+.layer5{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+.layer5:hover{
+    background: red;
+}
+.layer5 h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer5:hover h3{
+    bottom: 59%;
+    opacity: 0.5;
+}
+.layer6{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+.layer6:hover{
+    background: violet;
+}
+.layer6 h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer6:hover h3{
+    bottom: 59%;
+    opacity: 0.5;
+}
+.layer7{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+.layer7:hover{
+    background: aqua;
+}
+.layer7 h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer7:hover h3{
+    bottom: 59%;
+    opacity: 0.5;
+}
+.layer8{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+.layer8:hover{
+    background: fuchsia;
+}
+.layer8 h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer8:hover h3{
+    bottom: 59%;
+    opacity: 0.5;
+}
+.layer9{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+.layer9:hover{
+    background: darkblue;
+}
+.layer9 h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer9:hover h3{
+    bottom: 59%;
+    opacity: 0.5;
+}
+.layer10{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+.layer10:hover{
+    background:darkcyan;
+}
+.layer10 h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer10:hover h3{
+    bottom: 59%;
+    opacity: 0.5;
+}
+
+.footer{
+    height: 30rem;
+}
+.watch{
+ margin-left: 10%;
+top: 3%;
+}
+.hh{
+margin-left: 20%;
+margin-bottom: 15%;
+}
+.hh1{
+    margin-left: 30%;
+}

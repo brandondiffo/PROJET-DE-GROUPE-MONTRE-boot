@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+    background-color: blue;
+}
+/* NAVBAR */
+
+.navbar:hover{
+    background-color: blue;
+    color: blue;
+}
+.navbar-brand h1{
+    font-size: 350%;
+}
+.navbar-brand h1:hover{
+color: black;
+}
+.nav-link{
+    color: brown;
+}
+.nav-link:hover{
+    color: black;
+}
+.nav-item::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:rgb(48, 48, 163);
+    display: block;
+    margin: auto;
+    transition: all ease-in-out 0.5s;
+}
+.nav-item:hover::after{
+    width: 50%;
+}
+.carousel-inner{
+    height: 40rem;
+}
+.bienvenue{
+    margin-top: 15%;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1.5s;
+}
+.layer:hover{
+    background: transparent;
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 59%;
+    opacity: 1;
+}
+.footer{
+    height: 30rem;
+}
+.watch{
+ margin-left: 10%;
+top: 3%;
+}
+.hh{
+margin-left: 20%;
+margin-bottom: 15%;
+}
+.hh1{
+    margin-left: 30%;
+}

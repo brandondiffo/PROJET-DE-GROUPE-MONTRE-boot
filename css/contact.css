@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+background-color: aqua;
+}
+/* NAVBAR */
+
+.navbar:hover{
+    background-color: blue;
+    color: blue;
+}
+.navbar-brand h1{
+    font-size: 350%;
+}
+.navbar-brand h1:hover{
+color: black;
+}
+.nav-link{
+    color: brown;
+}
+.nav-link:hover{
+    color: black;
+}
+.nav-item::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:rgb(48, 48, 163);
+    display: block;
+    margin: auto;
+    transition: all ease-in-out 0.5s;
+}
+.nav-item:hover::after{
+    width: 50%;
+}
+.carousel-inner{
+    height: 40rem;
+}
+.carousel-caption h5{
+    margin-top: 10%;
+}
+.contact{
+    position: absolute;
+   bottom: 50%;
+   left: 35%;
+   text-align: center;
+}
+.numero{
+    position: absolute;
+    bottom: 40%;
+    left: 42%;
+    /* text-align: center; */
+}
+.footer{
+    height: 30rem;
+}
+.watch{
+ margin-left: 10%;
+top: 3%;
+}
+.hh{
+margin-left: 20%;
+margin-bottom: 15%;
+}
+.hh1{
+    margin-left: 30%;
+}
